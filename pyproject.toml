@@ -1,0 +1,8 @@
+[project]
+name = "penguins-project"
+version = "0.1.0"
+dependencies = [
+    "xgboost >= 3.0.2",  # Latest as of May 2025
+    "pandas==2.2.3",   # Latest as of May 2025
+    "scikit-learn==1.5.2"  # For dataset splitting
+]
